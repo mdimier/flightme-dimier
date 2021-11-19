@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Basket from './Basket';
 
 export default class Navbar extends Component {
     render() {
@@ -22,7 +23,7 @@ export default class Navbar extends Component {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> <Basket/>
           </nav>
         )
     }
